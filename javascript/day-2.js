@@ -53,3 +53,15 @@ if(age<18&&age>80){
 }else{
     console.log("you are eligible for vote");
 }
+//traditional function
+function sumdata(){
+    console.log(`your age is ${age}`);
+    if(age<=18&&age>=80){
+        console.log("you are not eligible for vote");
+    }else{
+        console.log("you are eligible for vote");
+    }   
+
+}
+sumdata();
+console.log("====================");
