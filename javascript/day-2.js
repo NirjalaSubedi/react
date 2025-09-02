@@ -47,3 +47,9 @@ if(profit>loss){
 }else{
     console.log("you are in loss");
 }
+
+if(age<18&&age>80){
+    console.log("you are not eligible for vote");
+}else{
+    console.log("you are eligible for vote");
+}
