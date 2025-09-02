@@ -29,3 +29,21 @@ console.log(`can not vote:${value2}`);
 let value3=!value2;
 console.log(`can vote:${value3}`);
 console.log("====================");
+
+let firstName="Nirjala";
+console.log(firstName.length);
+
+//conditional statement
+if(firstName.length>5){
+    console.log("name is too long");
+}else{
+    console.log("name is short");
+}
+let investment=10000;
+let profit=5000;
+let loss=2000;
+if(profit>loss){
+    console.log("you are in profit");
+}else{
+    console.log("you are in loss");
+}
