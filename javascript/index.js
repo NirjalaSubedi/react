@@ -23,3 +23,9 @@ function hello(){
 }
 hello();
 console.log(new Date().toLocaleDateString());
+let name="nirjala";
+console.log(`my name is ${name}`);
+let a=5;
+let ch='A';
+console.log(typeof(a+ch));
+
