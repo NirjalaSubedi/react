@@ -71,4 +71,11 @@ function data(name,age,address){
     console.log(`my name is ${name}.I am ${age} years old.I live in ${address}`);
 }
 data("Nirjala",20,"Jhumka");
+function add(a,b){
+    return a+b;
+}
+let result=add(5,6);
+let result2=result+7;
+console.log(result2);
+console.log("====================");
 
