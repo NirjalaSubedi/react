@@ -53,8 +53,9 @@ if(age<18&&age>80){
 }else{
     console.log("you are eligible for vote");
 }
-//traditional function
-function sumdata(){
+//function
+function sumdata(age,gender,address){
+    console.log(`your age is ${age} your gender is ${gender} and your address is ${address}`);
     console.log(`your age is ${age}`);
     if(age<=18&&age>=80){
         console.log("you are not eligible for vote");
@@ -63,5 +64,11 @@ function sumdata(){
     }   
 
 }
-sumdata();
+sumdata(18,"Female","jhumka");
 console.log("====================");
+
+function data(name,age,address){
+    console.log(`my name is ${name}.I am ${age} years old.I live in ${address}`);
+}
+data("Nirjala",20,"Jhumka");
+
