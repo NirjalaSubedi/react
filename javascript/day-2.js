@@ -72,7 +72,10 @@ function data(name,age,address){
 }
 data("Nirjala",20,"Jhumka");
 function add(a,b){
-    return a+b;
+    let c=a+b;
+    console.log(c);
+    return c;
+    
 }
 let result=add(5,6);
 let result2=result+7;
